@@ -6087,7 +6087,7 @@ CrosshairTab:AddSlider("Crosshair_Rotation_Speed", {Text = "Crosshair Rotation S
         Library:SetWatermarkVisibility(v)
     end})
     local MenuGroup = SettingsTab:AddCenterGroupbox("Menu")
-    MenuGroup:AddLabel("Menu bind"):AddKeyPicker("MenuKeybind", { Default = "End", NoUI = true, Text = "Menu keybind" })
+    MenuGroup:AddLabel("Menu bind"):AddKeyPicker("MenuKeybind", { Default = "RightShift", NoUI = true, Text = "Menu keybind" })
     MenuGroup:AddToggle("UIGlow", { Text = "UI Glow", Callback = function (v)
         Library:SetGlowVis(v)
     end});
