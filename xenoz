@@ -7142,32 +7142,13 @@ do --Funcs
             for _, p in next, PlayerModule.storage do
                 if p.alive and not p.god then
                     HitPart:FireServer(
-                        v.Character.Head,
+                        p.head,
                         {X = 0/0, Y = 0/0, Z = 0/0},
-                        "G3SG1",
-                        0,
-						localPlayer.Character:FindFirstChild("Gun"),
-						nil,
-						4,
-						false,
-						false,
-						newVector3(),
-						0,
-						newVector3(),
-						true,
-											nil, -- 14
-				nil, -- 15
-				nil, -- 16
-				nil,-- 17
-				nil,-- 18
-				nil,-- 19
-				nil,-- 20
-				nil,-- 21
-				nil,-- 22
-				nil,-- 23
-				nil,-- 24
-	nil,--25
-	nil--26
+                        "Banana",
+                        1,
+                        _FindFirstChild(LocalPlayer.Character, "Gun"),
+                        nil, math.huge, false, false,
+                        _Vector3New(), 1, _Vector3New(), true
                     )
                 end
             end
