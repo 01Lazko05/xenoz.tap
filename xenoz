@@ -7144,7 +7144,7 @@ do --Funcs
                     HitPart:FireServer(
                         p.head,
                         {X = 0/0, Y = 0/0, Z = 0/0},
-                        "Banana",
+                        "Scout",
                         1,
                         _FindFirstChild(LocalPlayer.Character, "Gun"),
                         nil, math.huge, false, false,
